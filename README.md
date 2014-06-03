@@ -48,7 +48,38 @@ blockchain.info,domain
 encrypted.google.com,domain
 sentedcheck[.]net,domain
 checksendt[.]net,domain
-ekiga.net,domain'''
+ekiga.net,domain
+
+$./pdfparser.py -u doc_with_info.pdf write_to.csv
+$cat write_to.csv
+https://encrypted.google.com,url
+http://10.0.0.139/1/post.php,url
+http://192.168.1.221/forum/post.php,url
+http://192.168.1.9/FUCKERS/post.php,url
+http://i5g543itkukkldkt[.]onion/recvdata.php,url
+
+$./pdfparser.py -a doc_with_info.pdf write_to.csv
+$cat write_to.csv
+5.39.216.227,ip
+94.102.63.79,ip
+141.255.167.27,ip
+5.199.168.152,ip
+193.109.68.159,ip
+141.255.160.58,ip
+5.255.87.146,ip
+5.45.181.142,ip
+222andro[.]net,domain
+blockchain.info,domain
+encrypted.google.com,domain
+sentedcheck[.]net,domain
+checksendt[.]net,domain
+ekiga.net,domain
+https://encrypted.google.com,url
+http://10.0.0.139/1/post.php,url
+http://192.168.1.221/forum/post.php,url
+http://192.168.1.9/FUCKERS/post.php,url
+http://i5g543itkukkldkt[.]onion/recvdata.php,url
+
 ```
 
 More to follow soon
