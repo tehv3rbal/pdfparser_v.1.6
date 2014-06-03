@@ -28,7 +28,7 @@ optional arguments:
   -a, --all      parse out all ips, domains, and urls
 ```
 
-The optional arguments may only be used one at a time, aka -i is ok, but -id is not. At the point where you are searching for two, you might as well search for all three anyway. Sample usage of the search features:
+The optional arguments may only be used one at a time, aka -i is ok, but -id or -i -d are not. At the point where you are searching for two, you might as well search for all three anyway. Sample usage of the search features:
 ```
 $ ./pdfparser.py -i doc_with_info.pdf write_to.csv
 $ cat write_to.csv 
