@@ -1,13 +1,8 @@
 pdfparser_v.1.6
 ===============
 
-Parser for PDF document to csv that looks for IP's, URL's and Domains
+About
+=====
 
-More to come soon, in the mean time, doing either:
-
-python pdfparser.py -h or ./pdfparser.py -h 
-
-will give you a summary of how to use it
-
-=========================================
+Pdfparser is a simple to use script that seeks out all of the IPS, URLs, and Domains from a PDF, and then converts that into easily readable .csv format.
 
